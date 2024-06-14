@@ -1,0 +1,25 @@
+#footer {
+    height: 100px;
+    width: 100%;
+    background-color: #4d4d4d;
+
+    a {
+        justify-content: center;
+        display: flex;
+    }
+
+    .footer__sns {
+
+
+        ul {
+            margin-right: 1rem;
+            display: flex;
+            justify-content: right;
+
+            li {
+                padding: 8px 9px;
+
+            }
+        }
+    }
+}

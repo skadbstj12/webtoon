@@ -1,0 +1,121 @@
+.content {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+:root.details section#list,
+:root:not(.details) section#details {
+    display: none;
+}
+
+#sorter {
+    margin: 1rem auto 3rem;
+    text-align: center;
+    padding: 0.85rem 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    width: max-content;
+    border: 1px solid rgb(103 105 127 / 43%);
+    border-radius: 2rem;
+    display: flex;
+    gap: 1rem;
+    line-height: 1.5;
+}
+
+#sorter label {
+    position: relative;
+    border: 1px solid rgb(103 105 127 / 43%);
+    padding: 0 0.85rem;
+    border-radius: 1rem;
+}
+
+#sorter label input {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#sorter label input:checked+span {
+    color: #fff;
+}
+
+
+
+
+
+section#list ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: clamp(1rem, 4vw, 2rem);
+    justify-content: center;
+}
+
+section#list ul li {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    border: 1px solid rgb(103 105 127 / 43%);
+    border-radius: 4px;
+    width: 200px;
+    /* flex 아이템의 크기를 고정 */
+}
+
+section#list ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    text-overflow: ellipsis;
+    text-align: center;
+    text-decoration: none;
+}
+
+section#details {
+    flex: 0 0 300px;
+    /* 고정된 너비를 설정 */
+    height: max-content;
+    padding-left: 20px;
+    /* 리스트와 간격을 둠 */
+}
+
+section#details a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+}
+
+#hero {
+    aspect-ratio: 2 / 3;
+    border-radius: 4px;
+}
+
+.thumb {
+    aspect-ratio: 2 / 3;
+    border-radius: 4px 4px 0 0;
+    max-width: 100%;
+}
+
+.title {
+    font-family: var(--fontN);
+    font-weight: bold;
+    padding: 0.85rem 0.5rem;
+    margin: auto;
+}
+
+.title--single {
+    font-family: var(--fontN);
+    font-size: 1.5rem;
+    padding: 2rem 1rem;
+    max-width: 400px;
+    text-align: center;
+}

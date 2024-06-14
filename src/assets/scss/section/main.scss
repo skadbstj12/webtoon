@@ -1,0 +1,225 @@
+#main {
+    margin: 0 auto;
+    width: 100%;
+    background-color: var(--black);
+    font-family: var(--fontN);
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    position: relative;
+}
+
+#main .content {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    -ms-overflow-style: none;
+}
+
+#main .content #list .option_wrap {
+    display: block;
+    width: 530px;
+    display: flex;
+    gap: 1rem;
+    border: 1px solid #727387;
+    border-radius: 50px;
+    position: relative;
+    margin-left: 35px;
+    margin-bottom: 25px;
+}
+
+.react-datepicker-wrapper {
+    top: 24px;
+    left: 10px;
+    margin: 0 auto;
+    position: absolute;
+
+    .date-picker {
+        background-color: #000;
+        color: #727387;
+        border: 1px solid #7a7a7a;
+        padding: 2px 0 2px 0;
+        width: 80%;
+        text-align: center !important;
+        border-radius: 50px !important;
+        cursor: pointer;
+    }
+
+    .date-picker:hover {
+        background-color: #3a3a3a;
+    }
+
+}
+
+.option_wrap {
+    select {
+        font-weight: 900;
+        font-family: var(--fontN);
+        border-radius: 20px;
+        padding: 2px 12px;
+        border: 1px solid #7a7a7a;
+        text-align: center;
+        color: #727387;
+        background-color: transparent;
+        cursor: pointer;
+        margin-bottom: 5px;
+
+        &:hover {
+            background-color: #3a3a3a;
+        }
+    }
+}
+
+#main .content #list label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    color: #6B6D84;
+}
+#text {
+    font-weight: 900;
+    font-family: var(--fontN);
+}
+
+#main .content::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+:root.details section#list,
+:root:not(.details) section#details {
+    display: none;
+}
+
+// #sorter {
+//     margin: 1rem auto 3rem;
+//     text-align: center;
+//     padding: 0.85rem 1.5rem;
+//     background: #fff;
+//     width: max-content;
+//     border: 1px solid #fff;
+//     border-radius: 2rem;
+//     display: flex;
+//     gap: 1rem;
+//     line-height: 1.5;
+// }
+
+// #sorter label {
+//     position: relative;
+//     border: 1px solid rgb(103 105 127 / 43%);
+//     padding: 0 0.85rem;
+//     border-radius: 1rem;
+// }
+
+// #sorter label input {
+//     cursor: pointer;
+//     opacity: 0;
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+// }
+
+// #sorter label input:checked+span {
+//     color: #fff;
+// }
+
+section#list {
+    position: relative;
+}
+
+section#list .searchbox .search-input {
+    width: 500px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    margin-right: 0;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+section#list ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: clamp(1rem, 4vw, 2rem);
+    justify-content: center;
+}
+
+section#list ul li {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    border: 1px solid #6b6d8466;
+    border-radius: 4px;
+    width: 200px;
+    /* flex 아이템의 크기를 고정 */
+}
+
+
+section#list ul li:hover .title {
+    color: #fff;
+}
+
+section#list ul li a {
+    font-family: var(--fontN);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    text-overflow: ellipsis;
+    text-align: center;
+    text-decoration: none;
+}
+
+section#details {
+    flex: 0 0 300px;
+    /* 고정된 너비를 설정 */
+    height: max-content;
+    padding-left: 20px;
+    /* 리스트와 간격을 둠 */
+}
+
+section#details a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+}
+
+#hero {
+    aspect-ratio: 2 / 3;
+    border-radius: 4px;
+}
+
+
+.thumb {
+    aspect-ratio: 2 / 3;
+    border-radius: 4px 4px 0 0;
+    max-width: 100%;
+}
+
+.title {
+    font-family: var(--fontN);
+    font-weight: bold;
+    padding: 0.85rem 0.5rem;
+    margin: auto;
+    color: #6B6D84;
+}
+
+.title--single {
+    font-family: var(--fontN);
+    font-size: 1.5rem;
+    padding: 2rem 1rem;
+    max-width: 400px;
+    text-align: center;
+}

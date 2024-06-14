@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url("https://websfont.github.io/websfont/websfont.css");
+//setting
+// @import "./setting/fonts";
+@import "./setting/vars";
+@import "./setting/reset";
+@import "./setting/mixin";
+// @import "./setting/common";
+
+//section
+
+// @import "./section/layout";
+// @import "./section/home";
+@import "./section/modal";
+@import "./section/header";
+@import "./section/main";
+@import "./section/footer";
+// @import "./section/search";
+// @import "./section/swipper";
+// @import "./section/video";
+// @import "./section/channel";

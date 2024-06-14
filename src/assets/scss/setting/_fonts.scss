@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "nexonLv1";
+    font-weight: 100;
+    font-style: normal;
+    src: url("../../fonts/nexonLv1-Light.woff2") format("woff2"),
+        url("../../fonts/nexonLv1-Light.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nexonLv1";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../../fonts/nexonLv1-Regular.woff2") format("woff2"),
+        url("../../fonts/nexonLv1-Regular.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nexonLv1";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../../fonts/nexonLv1-Bold.woff2") format("woff2"),
+        url("../../fonts/nexonLv1-Bold.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 300;
+    font-style: normal;
+    src: url("../../fonts/nanumSquareNeo-Light.woff2") format("woff2"),
+        url("../../fonts/nanumSquareNeo-Light.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../../fonts/nanumSquareNeo-Regular.woff2") format("woff2"),
+        url("../../fonts/nanumSquareNeo-Regular.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../../fonts/nanumSquareNeo-Bold.woff2") format("woff2"),
+        url("../../fonts/nanumSquareNeo-Bold.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 800;
+    font-style: normal;
+    src: url("../../fonts/nanumSquareNeo-ExtraBold.woff2") format("woff2"),
+        url("../../fonts/nanumSquareNeo-ExtraBold.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 900;
+    font-style: normal;
+    src: url("../../fonts/nanumSquareNeo-Black.woff2") format("woff2"),
+        url("../../fonts/nanumSquareNeo-Black.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-weight: 200;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-UltraLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-UltraLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-UltraLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-UltraLight.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-Light.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-Light.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-Light.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-Light.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-Regular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-Regular.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-Regular.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-Regular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-Bold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-Bold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-Bold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunGothic/NanumBarunGothic-Bold.ttf') format("truetype");
+    font-display: swap;
+}

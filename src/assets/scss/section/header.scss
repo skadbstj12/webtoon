@@ -1,0 +1,42 @@
+header {
+    background-color: var(--black);
+    width: 100%;
+    height: 100px;
+
+    
+    .title__wrap{
+        position: relative;
+        display: flex;
+        .ad{
+            position: absolute;
+            width: 30%;
+            height: 100px;
+            background-color: #ffffff;
+        }
+       
+        .header__title {
+            display: flex;
+            margin: 0 auto;
+            a {
+    
+                span {
+     
+                    font-weight: 400;
+                    font-family: "classicType";
+                    font-size: 3rem;
+                    padding-top: 30px;
+                    justify-content: center;
+                    display: flex;
+                    color: var(--white);
+                }
+            }
+        }
+        .ad2{
+            position: absolute;
+            right: 0;
+            width: 30%;
+            height: 100px;
+            background-color: #ffffff;
+        }
+    }
+}
